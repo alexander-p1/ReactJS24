@@ -1,0 +1,25 @@
+:root {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+.card {
+    text-align: center;
+    border-radius: 10px;
+    max-width: 50vw;
+
+}  
+
+.image {
+    border-radius: 50%;
+}
+
+.about {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    white-space: pre-line;
+}
+
+.source {
+    text-decoration: underline;
+}
