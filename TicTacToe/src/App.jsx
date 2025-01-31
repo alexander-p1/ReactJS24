@@ -1,9 +1,26 @@
+import Square from "./Components/Square";
 
-
-function App() {
+const Board = () => {
   return (
-    <button className="square">X</button>
+    <>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+      <div className="board-row">
+        <Square />
+        <Square />
+        <Square />
+      </div>
+    </>
   )
 }
 
-export default App
+
+export default Board;
