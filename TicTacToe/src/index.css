@@ -51,6 +51,10 @@ ul {
 }
 
 body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
     font-family: sans-serif;
     margin: 20px;
     padding: 0;
