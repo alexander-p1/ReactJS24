@@ -1,12 +1,14 @@
 import React from 'react';
+import App from '../App';
 import profilePic from '/src/assets/profilbild.jpg';
 
-const ProfileCard = ({name, title}) => {
+const ProfileCard = () => {
   return (
     <div className='card'>
-      <img className='card-image' src={profilePic} alt="profilbild" />
-      <h2>{name}</h2>
-      <p>{title}</p>
+        <img className='card-image' src={profilePic} alt="Profilbild" />
+        <h2></h2>
+        <p></p>
+        <button>Bonk</button>
     </div>
   )
 }
