@@ -1,0 +1,10 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+
+    background-color: lightgray;
+    padding-block: 0.5rem; /* Padding top and bottom */
+}

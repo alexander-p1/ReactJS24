@@ -1,0 +1,8 @@
+/* Styling in this file should be global styling and imports of other stylesheets */
+@import url(./Components/Header.css);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
