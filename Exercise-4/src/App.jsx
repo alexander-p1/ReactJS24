@@ -1,10 +1,12 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
 import './App.css'
+import Grandparent from './Components/Grandparent'
 
 const App = () => {
-  
+    return (
+        <>
+            <Grandparent />
+        </>
+    )
 }
 
 export default App
