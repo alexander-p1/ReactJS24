@@ -4,8 +4,7 @@ import Parent from './Parent'
 const Grandparent: React.FC = () => {
   return (
     <div>
-        <Parent energyValue={9001} />
-        <Parent energyValue={900} />
+        <Parent energyValue={Math.floor(Math.random() * 10000)} />
     </div>
   )
 }
